@@ -8,7 +8,7 @@
     workView.initIndexPage();
 
     $('main > section').hide();
-    $('#work').show();
+    $('#work').fadeIn();
   };
 
   module.workController = workController;

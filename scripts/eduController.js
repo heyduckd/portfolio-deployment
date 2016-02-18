@@ -7,7 +7,7 @@
       eduView.initIndexPage();
 
     $('main > section').hide();
-    $('#education').show();
+    $('#education').fadeIn();
   };
 
   module.eduController = eduController;

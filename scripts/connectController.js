@@ -8,7 +8,7 @@
     connectView.initIndexPage();
 
     $('main > section').hide();
-    $('#connect').show();
+    $('#connect').fadeIn();
     // $('#connects').show();
 
     // repos.requestRepos(repoView.index);

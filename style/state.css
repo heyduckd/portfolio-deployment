@@ -1,22 +1,92 @@
 /*HIDES PHONE NUMBER AND SOCIAL MEDIA ICONS AT WIDTH OF 673 PIXELS*/
 
 @media only screen and (max-width: 564px) {
-  .phonenumber , .mynumber , .social-aside , .github-icon , .twitter-icon , .linkedin-icon , .topSection , .logo , .work-text , .projects {
+  .phonenumber , .mynumber , .social-aside , .github-icon , .twitter-icon , .linkedin-icon , .davidheyduck, .davidheyducklink , .work-text , .projects {
     display: none;
   }
 
-  .website-title {
-    max-width: 400px;
-    text-align: center;
-    /*padding-left: 12%;*/
+  .topSection {
+    max-width: 65px;
+    min-width: 65px;
+    justify-content: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 2%;
+    background-color: none;
   }
 
   .logosection {
-    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-height: 90px;
+    align-items: center;
+    border-bottom: 1px solid #C9CCC9;
+    background-color: white;
+  }
+
+  .website-title {
+    display: none;
+  }
+
+  .logo {
+    max-width: 100%;
+    min-width: 30px;
   }
 
   .work-block {
     display: flex;
     justify-content: center;
   }
+
+  /*NAV BAR*/
+
+  .main-nav {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    /*max-width: 400px;*/
+    background-color: white;
+    border-bottom: 1px solid #C9CCC9;
+  }
+
+  .nav-text {
+    display: inline-flex;
+    background-color: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .homepage , .mywork , .connect , .myeducation {
+    font-size: 20px;
+    font-family: 'Pontano Sans', sans-serif;
+    color: black;
+    padding: 1%;
+    background-color: none;
+  }
+
+  .homepage:hover , .mywork:hover , .connect:hover , .myeducation:hover {
+    font-size: 20px;
+    font-family: 'Pontano Sans', sans-serif;
+    color: #baccde;
+    padding: 1%;
+    background-color: none;
+  }
+
+  .tab {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .slidercontainer {
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 50%;
+    min-width: 400px;
+    /*height: 500px;*/
+  }
+
 }

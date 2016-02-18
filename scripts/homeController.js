@@ -3,7 +3,7 @@ var homeController = {};
 
 homeController.index = function(){
 $('main > section').hide();
-$('#sliderHome').show();
+$('#sliderHome').fadeIn();
 };
 
   module.homeController = homeController;
