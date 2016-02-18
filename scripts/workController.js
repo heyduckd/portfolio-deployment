@@ -4,7 +4,6 @@
 
   workController.index = function() {
     $('#work').empty();
-    // Project.fetchAll();
     workView.initIndexPage();
 
     $('main > section').hide();

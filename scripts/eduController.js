@@ -3,7 +3,6 @@
 
   eduController.index = function() {
       $('#work').empty();
-      // Edu.fetchAll();
       eduView.initIndexPage();
 
     $('main > section').hide();
