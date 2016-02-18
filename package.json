@@ -1,0 +1,15 @@
+{
+  "name": "David Heyduck Portfolio",
+  "version": "1.0.0",
+  "description": "This is David Heyduck's Portfolio.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Heyduck",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-request-proxy": "^1.0.10"
+  }
+}

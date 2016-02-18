@@ -1,0 +1,147 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Heyduck's Portfolio</title>
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <!-- BROWSER ICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/duckfavicon.png">
+    <!-- SMACSS -->
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/layout.css">
+    <link rel="stylesheet" href="style/module.css">
+    <link rel="stylesheet" href="style/state.css">
+    <link rel="stylesheet" href="style/theme.css">
+    <!-- SLIDER STYLE GUIDE-->
+    <link href="style/jquery.bxslider.css" rel="stylesheet" />
+    <!-- ICONS STYLE GUIDE -->
+    <link rel="stylesheet" href="style/icons.css">
+    <link rel="stylesheet" href="style/iconsheet.css">
+    <!-- FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Convergence' rel='stylesheet' type='text/css'>
+
+    <!-- POPULATES WORK SECTION -->
+
+    <script id="work-template" type="text/x-handlebars-template">
+      <article class="work-block">
+        <a class="project-url" href="{{url}}" target="_blank"><img class="project-image" src="{{img}}"/></a>
+        <div class="projects">
+          <article class="work-text">
+            <p class="project-summary">{{{body}}}</p>
+          </article>
+        </div>
+      </article>
+    </script>
+
+    <!-- POPULATES EDUCATION SECTION -->
+
+    <script id="edu-template" type="text/x-handlebars-template">
+      <div class="edu-padding">
+        <a class="placelink" href="{{placeurl}}" target="_blank"><img class="map-image" src="{{mapimg}}"/></a>
+        <article class="edu-block">
+          <div class="education-details">
+            <h1 class="years">{{years}}</h1>
+            <h1 class="school-name">{{school}}</h1>
+            <h1 class="school-location">{{location}}</h1>
+            <h6 class="studied">{{studied}}</h6>
+          </div>
+        </article>
+      </div>
+    </script>
+
+    <!-- POPULATES CONNECT SECTION -->
+
+    <script id="connect-template" type="text/x-handlebars-template">
+      <article class="connect-article">
+        <div class="connect-div">
+            <a href="{{contacturl}}" target="_blank"><img class="cartoonicons" src="{{icon}}"></a>
+            <p class="connect-text">{{contactmethod}}</p>
+        </div>
+      </article>
+    </script>
+
+  </head>
+
+  <body>
+
+  <!-- LOGO SECTION -->
+
+  <section class="logosection">
+    <div class="topSection">
+      <a href="/"><img class="logo" src="img/ducklogo.png"/></a>
+    </div>
+    <article class="website-title">
+      <a class="davidheyducklink" href="/"><h1 class="davidheyduck">DAVID HEYDUCK</h1></a>
+    </article>
+    <aside class="social-aside">
+      <a href="https://github.com/heyduckd" target="_blank"><img class="github-icon" src="img/github-icongrey.png"></a>
+      <a href="https://twitter.com/DavidHeydoook" target="_blank"><img class="twitter-icon" src="img/twitter-icongrey.png"></a>
+      <a href="https://www.linkedin.com/in/davidheyduck" target="_blank"><img class="linkedin-icon" src="img/linkedin-icongrey.png"></a>
+    </aside>
+  </section>
+
+  <!-- NAV BAR -->
+
+  <nav class="main-nav">
+    <ul class="nav-text">
+      <li class="tab" data-content="home"><a class="homepage" href="/">Home</a></li>
+      <li class="tab" data-content="work"><a class="mywork" href="/work">Work</a></li>
+      <li class="tab" data-content="education"><a class="myeducation" href="/edu">Education</a></li>
+      <li class="tab" data-content="connect"><a class="connect" href="/connect">Connect</a></li>
+    </ul>
+  </nav>
+
+<main>
+  <!-- IMAGE SLIDER -->
+
+  <section class="sliderdiv" id="sliderHome">
+    <containter class="slidercontainer">
+      <ul class="bxslider">
+        <li><img src="/img/davidpic.jpg" /></li>
+        <li><img src="/img/equippic.jpg" /></li>
+        <li><img src="/img/fishmappic.jpg" /></li>
+        <li><img src="/img/randompic.jpg" /></li>
+      </ul>
+    </container>
+  </section>
+
+  <!-- WORK SECTION -->
+  <section id="work" class="tab-content"></section>
+  <!-- EDUCATION SECTON -->
+  <section id="education" class="tab-content"></section>
+  <!-- CONNECT SECTION -->
+  <section id="connect" class="tab-content"></section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+  &copy; 2016 Heyduck's Porfolio | heyduckd@gmail.com
+</footer>
+
+<!-- SCRIPTS -->
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+<script type="text/javascript" src="vendors/scripts/page.js"></script>
+<script type="text/javascript" src="vendors/scripts/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/workview.js"></script>
+<script type="text/javascript" src="scripts/workController.js"></script>
+<script type="text/javascript" src="scripts/eduController.js"></script>
+<script type="text/javascript" src="scripts/connectController.js"></script>
+<script type="text/javascript" src="scripts/homeController.js"></script>
+<script type="text/javascript" src="scripts/routes.js"></script>
+
+<script>Project.fetchAll();</script>
+<script>Edu.fetchAll();</script>
+<script>Connect.fetchAll();</script>
+<script>connectView.initIndexPage();</script>
+</body>
+</html>

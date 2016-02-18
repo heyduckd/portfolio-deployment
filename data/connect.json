@@ -1,0 +1,22 @@
+[
+  {
+  "contactmethod": "LinkedIn",
+  "icon": "img/customicons/linkedin.png",
+  "contacturl": "https://www.linkedin.com/in/david-heyduck-1385ab4b"
+  },
+  {
+  "contactmethod": "GitHub/HeyduckD",
+  "icon": "img/customicons/github.png",
+  "contacturl": "https://github.com/heyduckd"
+  },
+  {
+  "contactmethod": "@DavidHeydoook",
+  "icon": "img/customicons/twitter.png",
+  "contacturl": "https://twitter.com/DavidHeydoook"
+  },
+  {
+  "contactmethod": "HeyduckD@Gmail.com",
+  "icon": "img/customicons/email.png",
+  "contacturl": "https://gmail.com"
+  }
+]
