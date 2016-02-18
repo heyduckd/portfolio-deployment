@@ -1,5 +1,12 @@
 body {
   margin: 0;
+  width: 100%;
+}
+
+html {
+  margin: 0;
+  display: flex;
+  padding: 0;
 }
 
 /*HOME PAGE*/
@@ -15,7 +22,6 @@ body {
   padding-right: 10%;
   width: 50%;
   min-width: 400px;
-  /*height: 500px;*/
 }
 
 li {
@@ -47,7 +53,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  padding: 0;
   text-align: center;
   background-color: #F0F0F0;
 }

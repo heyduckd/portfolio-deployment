@@ -47,7 +47,6 @@
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     width: 100%;
-    /*max-width: 400px;*/
     background-color: white;
     border-bottom: 1px solid #C9CCC9;
   }
@@ -81,13 +80,18 @@
     padding: 10px;
   }
 
+  /*SLIDER*/
+
   .slidercontainer {
     padding-left: 0%;
     padding-right: 0%;
     width: 50%;
     min-width: 400px;
-    /*height: 500px;*/
   }
+
+  
+
+  /*EDUCATION*/
 
   .education-details {
     justify-content: center;

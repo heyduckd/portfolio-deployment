@@ -97,7 +97,7 @@
 }
 
 .bx-wrapper .bx-next {
-	right: 10px;
+	right: 0px;
 	/*background: url(images/controls.png) no-repeat -43px -32px;*/
 }
 
@@ -136,7 +136,7 @@
 	width: 10px;
 	height: 11px;
 	outline: 0;
-	margin: 0 3px;
+	margin: 0 0px;
 }
 
 .bx-wrapper .bx-controls-auto .bx-start:hover,
