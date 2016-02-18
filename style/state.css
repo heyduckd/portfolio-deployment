@@ -89,4 +89,11 @@
     /*height: 500px;*/
   }
 
+  .education-details {
+    justify-content: center;
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 0%;
+  }
+
 }
