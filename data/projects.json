@@ -1,24 +1,10 @@
 [
   {
-  "title": "Equip",
-  "gitRepo": "https://github.com/heyduckd/equip",
-  "url": "http://heyduckd.github.io/equip/",
-  "body": "Equip is a web application that churns out custom packing lists for various outdoor activities. The user can choose their type of activity, the weather they expect, and how long they plan on going. With that user input, pack lists are tailored and then presented. Users can then follow links to purchase any items that they don't already have. When they user returns home, they can access their saved list and review their trip. This project remains one of my proudest accomplishments and it's something I plan to keep up on, with the goal of one day selling the app to be integrated into REI's website and mobile application.",
-  "img": "img/equipsquarelogo.jpg"
-  },
-  {
   "title": "Overbrook Construction Inc.",
   "gitRepo": "https://github.com/heyduckd/overbrook-website",
   "url": "https://github.com/heyduckd/overbrook-website",
-  "body": "Overbrook Construction is a luxury home builder located in Bellevue, WA. This site is a MEAN stack portfolio site dedicated to the company. Featuring a Google map that can display completed, in progress, and future build sites. There is also an admin login page that allows the owner to update the content on the site without having to dig into the code. The database lives on MongoLabs, while the website is deployed on Heroku.",
+  "body": "Overbrook Construction is a luxury home builder located in Bellevue, WA. This site is a MEAN stack portfolio site dedicated to the company. Users are able to visit the site to see the work that Overbrook has done with a clean visual layout that is easy to navigate. Featuring a Google map that can display completed, in progress, and future build sites, users are able to put a location to the home of their liking. There is also an admin login page that allows the company owner or real estate agents to update the content on the site without having to dig into the code. The database lives on MongoLabs, while the website is deployed on Heroku.",
   "img": "img/overbrooksquarelogo.jpg"
-},
-{
-  "title": "SnapGig",
-  "gitRepo": "https://github.com/heyduckd/snap-gig",
-  "url": "https://github.com/heyduckd/snap-gig",
-  "body": "SnapGig is a fully functional back-end restful API that allows website visitors to create user accounts in order to post freelance jobs that they want other users to submit entries to. Users who submit projects are able to upload files to an S3 bucket, where the project creator can view each submission. Once the project creator chooses a submission, they can identify that submission as a winner, and the user who submitted is notified via Twitter and Facebook.",
-  "img": "img/snapgigsquarelogo.jpg"
 },
 {
   "title": "PXL MSTR",
@@ -26,6 +12,20 @@
   "url": "https://github.com/PXL-CF2016/pxl-master",
   "body": "PXL MSTR (pronounced Pixel Master) is a hybrid Full-Stack app that utilizes the power of an Angular front-end and Python back-end. The idea for this project sprouted from the desire to have an in-house LED sports ticker, but it evolved into something much greater! Our front-end allows website users to create an account and select from various options of what they want to display on a 32x128 LED Matrix that is hooked up to a Raspberry Pi. When the user selects what they want to see (MLB, NHL, NFL Scores, News Headlines, or Weather) and clicks submit, the data is packaged up into a JSON object which the Python back-end picks up and grabs the corresponding information from external APIs. Then, the data is pumped out through Amazon Web Services' IoT platform. Our Raspberry pi is subscribed to this platform, awaiting the commands from our back-end. Once recieved, the corresponding information is displayed on the LED reader.",
   "img": "img/pxlsquarelogo.jpg"
+},
+{
+  "title": "Equip",
+  "gitRepo": "https://github.com/heyduckd/equip",
+  "url": "http://heyduckd.github.io/equip/",
+  "body": "Equip is a web application that churns out custom packing lists for various outdoor activities. The user can choose their type of activity, the weather they expect, and how long they plan on going. With that user input, pack lists are tailored and then presented. Users can then follow links to purchase any items that they don't already have. When they user returns home, they can access their saved list and review their trip. This project remains one of my proudest accomplishments and it's something I plan to keep up on, with the goal of one day selling the app to be integrated into REI's website and mobile application.",
+  "img": "img/equipsquarelogo.jpg"
+},
+{
+  "title": "SnapGig",
+  "gitRepo": "https://github.com/heyduckd/snap-gig",
+  "url": "https://github.com/heyduckd/snap-gig",
+  "body": "SnapGig is a fully functional back-end restful API that allows website visitors to create user accounts in order to post freelance jobs that they want other users to submit entries to. Users who submit projects are able to upload files to an S3 bucket, where the project creator can view each submission. Once the project creator chooses a submission, they can identify that submission as a winner, and the user who submitted is notified via Twitter and Facebook.",
+  "img": "img/snapgigsquarelogo.jpg"
 },
 {
   "title": "SuccessApp",
