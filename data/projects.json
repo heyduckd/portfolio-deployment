@@ -7,10 +7,31 @@
   "img": "img/equipsquarelogo.jpg"
   },
   {
-  "title": "Busmall",
-  "gitRepo": "https://github.com/heyduckd/busMall",
-  "url": "http://heyduckd.github.io/busmall",
-  "body": "Busmall is another web app that takes in user input. The user story involved a startup company called BusMall which offered SkyMall like services but on public transportation busses. The idea behind the app was that the company was deciding which products to put in production based on focus groups. The individuals in the focus groups would cycle through three randomly presented product images. They could click on one image to vote on it, and then three more images would appear. When the user went through 15 votes, they could see the summary of their choices in a chart. The company could then use the popularity data to decide which products to put in production.",
-  "img": "img/busmallsquarelogo.jpg"
-  }
+  "title": "Overbrook Construction Inc.",
+  "gitRepo": "https://github.com/heyduckd/overbrook-website",
+  "url": "https://github.com/heyduckd/overbrook-website",
+  "body": "Overbrook Construction is a luxury home builder located in Bellevue, WA. This site is a MEAN stack portfolio site dedicated to the company. Featuring a Google map that can display completed, in progress, and future build sites. There is also an admin login page that allows the owner to update the content on the site without having to dig into the code. The database lives on MongoLabs, while the website is deployed on Heroku.",
+  "img": "img/overbrooksquarelogo.jpg"
+},
+{
+  "title": "SnapGig",
+  "gitRepo": "https://github.com/heyduckd/snap-gig",
+  "url": "https://github.com/heyduckd/snap-gig",
+  "body": "SnapGig is a fully functional back-end restful API that allows website visitors to create user accounts in order to post freelance jobs that they want other users to submit entries to. Users who submit projects are able to upload files to an S3 bucket, where the project creator can view each submission. Once the project creator chooses a submission, they can identify that submission as a winner, and the user who submitted is notified via Twitter and Facebook.",
+  "img": "img/snapgigsquarelogo.jpg"
+},
+{
+  "title": "PXL MSTR",
+  "gitRepo": "https://github.com/PXL-CF2016",
+  "url": "https://github.com/PXL-CF2016/pxl-master",
+  "body": "PXL MSTR (pronounced Pixel Master) is a hybrid Full-Stack app that utilizes the power of an Angular front-end and Python back-end. The idea for this project sprouted from the desire to have an in-house LED sports ticker, but it evolved into something much greater! Our front-end allows website users to create an account and select from various options of what they want to display on a 32x128 LED Matrix that is hooked up to a Raspberry Pi. When the user selects what they want to see (MLB, NHL, NFL Scores, News Headlines, or Weather) and clicks submit, the data is packaged up into a JSON object which the Python back-end picks up and grabs the corresponding information from external APIs. Then, the data is pumped out through Amazon Web Services' IoT platform. Our Raspberry pi is subscribed to this platform, awaiting the commands from our back-end. Once recieved, the corresponding information is displayed on the LED reader.",
+  "img": "img/pxlsquarelogo.jpg"
+},
+{
+  "title": "SuccessApp",
+  "gitRepo": "https://github.com/heyduckd/successapp",
+  "url": "http://successapp.herokuapp.com/",
+  "body": "SuccessApp is a simple job/event search engine that pulls job listings from the Indeed Jobs API. Based off of the user's search, it also uses the same keywords to pull relevant events in your area from the Eventbrite API. The results of your search are displayed side by side with links to the pages where you can either apply or RSVP. The idea behind this was that finding a job may not always be about what you know, but who you know as well. If you are able to connect to a potential employer or get more in tune with the industry by attending events that bring you closer, you could find yourself meeting people who can help you land that next job. This website eliminates the need to have multiple browser windows open to figure out what job related activities are going on around you.",
+  "img": "img/successappsquarelogo.jpg"
+}
 ]
