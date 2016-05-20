@@ -1,8 +1,8 @@
 (function(module) {
   var connectController = {};
 
-  connectController.index = function() {
-    connectView.initIndexPage();
+  connectController.index = function(ctx) {
+    connectView.initIndexPage(ctx.connect);
 
     $('main > section').hide();
     $('#connect').fadeIn();
