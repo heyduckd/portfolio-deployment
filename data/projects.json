@@ -1,5 +1,12 @@
 [
   {
+  "title": "Gear for Nest",
+  "gitRepo": "http://tecace.com/gearfornest.html",
+  "url": "http://tecace.com/gearfornest.html",
+  "body": "Gear for Nest is a web application that runs on the Samsung Gear S2 and S3 smartwatch. Nest is a smarthome company that makes a thermostat that can be controlled via smartphone app. Now that wearables are becoming main stream, they wanted a watch app that could handle the core functionailty of their thermostat. With this app, you can take full control of your Nest Thermostat ecosystem, allowing the user to change temperature, set Home or Away modes, turn on the fan, and switch between multiple structures.",
+  "img": "img/gearnestsquare.jpg"
+},
+  {
   "title": "Overbrook Construction Inc.",
   "gitRepo": "https://github.com/heyduckd/overbrook-website",
   "url": "https://github.com/heyduckd/overbrook-website",
